@@ -4,7 +4,7 @@
 
 A curated list of cryptography resources and links.
 
-<!--lint disable no-missing-blank-lines alphabetize-lists ending-period-->
+<!--lint disable no-missing-blank-lines alphabetize-lists list-item-punctuation-->
 
 - [Theory](#theory)
   - [Algorithms](#algorithms)
@@ -52,7 +52,7 @@ A curated list of cryptography resources and links.
 - [Contributing](#contributing)
 - [License](#license)
 
-<!--lint enable no-missing-blank-lines alphabetize-lists ending-period-->
+<!--lint enable no-missing-blank-lines alphabetize-lists list-item-punctuation-->
 
 - - -
 
@@ -78,7 +78,6 @@ A curated list of cryptography resources and links.
 
 ### Books
 
-- [A Graduate Course in Applied Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/) - The book covers many constructions for different tasks in cryptography.
 - [An Introduction to Mathematical Cryptography](http://www.math.brown.edu/~jhs/MathCryptoHome.html) -  is an introduction to modern cryptography.
 - [Crypto101](https://www.crypto101.io/) - Crypto 101 is an introductory course on cryptography.
 - [Cryptography Engineering](https://www.schneier.com/books/cryptography_engineering/) - Learn to build cryptographic protocols that work in the real world.
@@ -95,7 +94,6 @@ A curated list of cryptography resources and links.
 - [Cryptography - Stanford University](http://online.stanford.edu/course/cryptography) - This course explains the inner workings of cryptographic primitives and how to correctly use them. Students will learn how to reason about the security of cryptographic constructions and how to apply this knowledge to real-world applications.
 - [Cryptography I](https://www.coursera.org/learn/crypto) - The course begins with a detailed discussion of how two parties who have a shared secret key can communicate securely when a powerful adversary eavesdrops and tampers with traffic. We will examine many deployed protocols and analyze mistakes in existing systems.
 - [Cybrary Cryptography](https://www.cybrary.it/course/cryptography/) - This online course we will cover how cryptography is the cornerstone of security, and how through its use of different encryption methods, such as ciphers, and public or private keys, you can protect private or sensitive information from unauthorized access.
-- [Journey into cryptography](https://www.khanacademy.org/computing/computer-science/cryptography) - The course of cryptography by Khan Academy.
 - [Practical Aspects of Modern Cryptography](http://courses.cs.washington.edu/courses/csep590/06wi/) - Practical Aspects of Modern Cryptography, Winter 2006 University of Washington CSE.
 - [Theory and Practice of Cryptography](https://www.youtube.com/watch?v=ZDnShu5V99s) - Introduction to Modern Cryptography, Using Cryptography in Practice and at Google, Proofs of Security and Security Definitions and A Special Topic in Cryptography.
 
@@ -117,8 +115,6 @@ A curated list of cryptography resources and links.
 
 ### C
 
-- [cryptlib](http://www.cryptlib.com/) -  is an open source cross-platform software security toolkit library.
-- [crypto-algorithms](https://github.com/B-Con/crypto-algorithms) - Basic implementations of standard cryptography algorithms, like AES and SHA-1.
 - [libgcrypt](http://directory.fsf.org/wiki/Libgcrypt) - is a cryptographic library developed as a separated module of GnuPG.
 - [libtomcrypt](https://github.com/libtom/libtomcrypt) - is a fairly comprehensive, modular and portable cryptographic toolkit.
 - [NaCl](https://nacl.cr.yp.to/) - high-speed library for network communication, encryption, decryption, signatures, etc.
@@ -132,7 +128,6 @@ A curated list of cryptography resources and links.
 - [Bcrypt](http://bcrypt.sourceforge.net/) - a cross platform file encryption utility.
 - [Botan](https://botan.randombit.net/) - is a cryptography library written in `C++11`.
 - [Crypto++](https://www.cryptopp.com/) - Crypto++ Library is a free C++ class library of cryptographic schemes.
-- [HElib](https://github.com/shaih/HElib) - is a software library that implements homomorphic encryption (HE).
 - [libsodium](https://github.com/jedisct1/libsodium) - a modern and easy-to-use crypto library.
 - [Nettle](http://www.lysator.liu.se/~nisse/nettle/) - a low-level cryptographic library.
 - [s2n](https://github.com/awslabs/s2n) - an implementation of the TLS/SSL protocols.
@@ -141,7 +136,6 @@ A curated list of cryptography resources and links.
 
 - [Bouncy Castle](https://bouncycastle.org/csharp/index.html) - All-purpose cryptographic library.
 - [libsodium-net](https://github.com/adamcaudill/libsodium-net) - libsodium for .NET - A secure cryptographic library.
-- [PCLCrypto](https://github.com/AArnott/PCLCrypto) - provides cryptographic APIs over algorithms implemented by the platform, including exposing them to portable libraries.
 - [StreamCryptor](https://github.com/bitbeans/StreamCryptor) - Stream encryption & decryption with libsodium and protobuf.
 
 ### Clojure
@@ -227,7 +221,7 @@ A curated list of cryptography resources and links.
 
 ### PHP
 
-- [halite](https://paragonie.com/project/halite) - a simple library for encryption using [libsodium](https://github.com/jedisct1/libsodium).
+- [halite](https://paragonie.com/project/halite) - a simple library for encryption using `libsodium`.
 - [PHP Encryption](https://github.com/defuse/php-encryption) - This is a library for encrypting data with a key or password in PHP.
 - [TCrypto](https://github.com/timoh6/TCrypto) - TCrypto is a simple and flexible PHP 5.3+ in-memory key-value storage library.
 
@@ -236,7 +230,6 @@ A curated list of cryptography resources and links.
 - [charm](https://github.com/JHUISI/charm) - a framework for rapidly prototyping cryptosystems.
 - [cryptography](https://cryptography.io/en/latest/) - is a Python library which exposes cryptographic recipes and primitives.
 - [cryptopy](https://sourceforge.net/projects/cryptopy/) - is a pure python implmentation of cryptographic algorithms and applications.
-- [Google Keyczar](https://github.com/google/keyczar) - Easy-to-use crypto toolkit.
 - [hashids](https://github.com/davidaurelio/hashids-python) - Implementation of [hashids](http://hashids.org) in Python.
 - [paramiko](http://www.paramiko.org/) - a Python implementation of the SSHv2 protocol, providing both client and server functionality.
 - [pycrypto](https://github.com/dlitz/pycrypto) - The Python Cryptography Toolkit.
@@ -283,12 +276,10 @@ A curated list of cryptography resources and links.
 - [Cryptography Stackoverflow](http://stackoverflow.com/questions/tagged/cryptography) - Cryptography covers, among other things, encryption, hashing and digital signatures.
 - [Garykessler Crypto](http://www.garykessler.net/library/crypto.html) - An Overview of Cryptography.
 - [Learn Cryptography](https://learncryptography.com/) - is dedicated to helping people understand how and why the cryptographic systems they use everyday without realizing work to secure and protect their privacy.
-- [Subreddit of Cryptography](https://www.reddit.com/r/cryptography) - This subreddit is intended for links and discussions surrounding the theory and practice of strong cryptography.
 - [WebCryptoAPI](https://www.w3.org/TR/WebCryptoAPI/) - This specification describes a JavaScript API for performing basic cryptographic operations in web applications, such as hashing, signature generation and verification, and encryption and decryption.
 
 ### Blogs
 
-- [A Few Thoughts on Cryptographic Engineering](http://blog.cryptographyengineering.com/) - Some random thoughts about crypto.
 - [Bristol Cryptography Blog](http://bristolcrypto.blogspot.co.uk/) - The official blog for the University of Bristol cryptography research group. It's a group blog, primarily targeted towards cryptographers and crypto students.
 - [Charles Engelke's Blog](https://blog.engelke.com/tag/webcrypto/) - WebCrypto Blog Posts.
 - [Root Labs rdist](https://rdist.root.org/) - Nate Lawson and his co-authors write on a variety of topics including hardware implementation, cryptographic timing attacks, DRM, and the Commodore 64.
